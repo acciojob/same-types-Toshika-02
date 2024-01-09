@@ -7,6 +7,8 @@ function isSameType(value1, value2) {
 
   // Attempt to compare types indirectly:
   return (value1 + "") === (value2 + "");
+	return false
+	
    
 }
 	
